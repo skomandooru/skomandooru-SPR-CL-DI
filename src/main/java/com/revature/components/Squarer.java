@@ -12,6 +12,7 @@ public class Squarer {
     /**
      * TODO: Autowire this field
      */
+    @Autowired
     Multiplier multiplier;
 
     /**
