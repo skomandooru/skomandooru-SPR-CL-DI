@@ -26,17 +26,14 @@ import org.springframework.stereotype.Component;
 @Component
 public class ArithmeticPresentationLayer {
 
-    @Autowired
     private Adder adder;
     private Multiplier multiplier;
     private Squarer squarer;
 
-    @Autowired
     public void setMultiplier(Multiplier multiplier) {
         this.multiplier = multiplier;
     }
 
-    @Autowired
     public ArithmeticPresentationLayer(Squarer squarer) {
         this.squarer = squarer;
     }
@@ -51,8 +48,6 @@ public class ArithmeticPresentationLayer {
     }
 
     /**
-     * TODO: Fill out this method so that it returns a String representing the addition operation
-     * TODO: Make sure to use the Adder object that was injected
      * @param a - number 1
      * @param b - number 2
      * @return the addition operation as a String, see tests for specific formatting
@@ -61,8 +56,6 @@ public class ArithmeticPresentationLayer {
         return String.format("The result of %.1f + %.1f is %.1f", a, b, adder.add(a,b));
     }
     /**
-     * TODO: Fill out this method so that it returns a String representing the multiplication operation
-     * TODO: Make sure to use the Multiplier object that was injected
      * @param a - number 1
      * @param b - number 2
      * @return the multiplication operation as a String, see tests for specific formatting
@@ -72,8 +65,6 @@ public class ArithmeticPresentationLayer {
     }
 
     /**
-     * TODO: Fill out this method so that it returns a String representing the square operation
-     * TODO: Make sure to use the Squarer object that was injected
      * @param a - number 1
      * @return the square operation as a String, see tests for specific formatting
      */
