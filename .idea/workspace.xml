@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac76151-d1dc-4e17-bad6-aac72b3500f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/ArithmeticPresentationLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/ArithmeticPresentationLayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/components/Multiplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/components/Multiplier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/components/Squarer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/components/Squarer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ArithmeticPresentationLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/revature/ArithmeticPresentationLayerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +63,8 @@
     </configuration>
     <configuration name="ArithmeticPresentationLayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SPR-COD-DI" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArithmeticPresentationLayerTest" />
+      <option name="PACKAGE_NAME" value="com.revature" />
+      <option name="MAIN_CLASS_NAME" value="com.revature.ArithmeticPresentationLayerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,8 +72,8 @@
     </configuration>
     <configuration name="ArithmeticPresentationLayerTest.testAddConvertToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SPR-COD-DI" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArithmeticPresentationLayerTest" />
+      <option name="PACKAGE_NAME" value="com.revature" />
+      <option name="MAIN_CLASS_NAME" value="com.revature.ArithmeticPresentationLayerTest" />
       <option name="METHOD_NAME" value="testAddConvertToString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -86,8 +82,8 @@
     </configuration>
     <configuration name="ArithmeticPresentationLayerTest.testMultiplyConvertToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SPR-COD-DI" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArithmeticPresentationLayerTest" />
+      <option name="PACKAGE_NAME" value="com.revature" />
+      <option name="MAIN_CLASS_NAME" value="com.revature.ArithmeticPresentationLayerTest" />
       <option name="METHOD_NAME" value="testMultiplyConvertToString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -96,8 +92,8 @@
     </configuration>
     <configuration name="ArithmeticPresentationLayerTest.testSquareConvertToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SPR-COD-DI" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArithmeticPresentationLayerTest" />
+      <option name="PACKAGE_NAME" value="com.revature" />
+      <option name="MAIN_CLASS_NAME" value="com.revature.ArithmeticPresentationLayerTest" />
       <option name="METHOD_NAME" value="testSquareConvertToString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">

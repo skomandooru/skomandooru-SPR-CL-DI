@@ -1,3 +1,5 @@
+package com.revature;
+
 import com.revature.ArithmeticPresentationLayer;
 import org.junit.Assert;
 import org.junit.BeforeClass;
