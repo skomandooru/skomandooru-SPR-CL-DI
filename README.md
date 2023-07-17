@@ -1,4 +1,4 @@
-# SPR-COD-DI
+# SPR-CL-DI
 
 This coding lab covers unit "Spring Boot", module "Spring Core". 
 
