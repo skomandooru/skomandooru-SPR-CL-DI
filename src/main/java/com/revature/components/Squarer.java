@@ -9,10 +9,15 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class Squarer {
+    private final Multiplier multiplier;
+
     /**
      * TODO: Inject this field
      */
-    Multiplier multiplier;
+    @Autowired
+    public Squarer(Multiplier multiplier) {
+        this.multiplier = multiplier;
+    }
 
     /**
      * Leverage the Multiplier dependency to multiply a value with itself.
